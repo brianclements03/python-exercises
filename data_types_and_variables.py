@@ -51,3 +51,49 @@ no_extra_spaces = username == username.strip() and password == password.strip()
 no_extra_spaces
 satisfactory_combo = pw_long_enough and u_n_short_enough and not_same
 satisfactory_combo
+
+# A list of dictionaries approach to the contractor exercise from https://ds.codeup.com/python/data-types-and-variables/
+
+# Setup a list of dictionaries
+# Each dictionary contains the client, rate, and amount of consulting hours
+clients = [
+    {
+        "client": "Google",
+        "rate": 400,
+        "hours": 6,
+    },
+    {
+        "client": "Amazon",
+        "rate": 380,
+        "hours": 4,
+    },
+    {
+        "client": "Facebook",
+        "rate": 350,
+        "hours": 10,
+    }
+]
+
+# programmatically determine the number of clients (the number of dictionaries on the list)
+number_of_clients = len(clients)
+
+# Set hours and compensation to zero
+total_hours = 0
+total_compensation = 0
+
+# Iterate through each client
+for client in clients:
+    # Increase total_hours worked by the hours for each client
+    total_hours += client["hours"]
+
+    # calculate the rate * hours for each client
+    client_subtotal = client["rate"] * client["hours"]
+
+    print(f"After working {client['hours']} for {client['client']} at a rate of ${client['rate']} per hour, I earned ${client_subtotal}.")
+
+    # update that subtotal to the total_compensation variable
+    total_compensation += client_subtotal
+
+
+print("---")
+print(f"After working a grand total of {total_hours} for {number_of_clients} clients, I now have to pay taxes on ${total_compensation}.")
