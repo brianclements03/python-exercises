@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "3ac457ca",
+   "id": "e86c8e0c",
    "metadata": {},
    "source": [
     "1. Conditional Basics\n",
@@ -13,7 +13,7 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "06ec65ff",
+   "id": "67093e37",
    "metadata": {},
    "outputs": [
     {
@@ -35,7 +35,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "410e8d3a",
+   "id": "1dacf222",
    "metadata": {},
    "source": [
     "b. prompt the user for a day of the week, print out whether the day is a weekday or a weekend"
@@ -44,7 +44,7 @@
   {
    "cell_type": "code",
    "execution_count": 51,
-   "id": "dae054f2",
+   "id": "910a0b63",
    "metadata": {},
    "outputs": [
     {
@@ -69,7 +69,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b586385d",
+   "id": "238e86ae",
    "metadata": {},
    "source": [
     "c. create variables and make up values for\n",
@@ -86,7 +86,7 @@
   {
    "cell_type": "code",
    "execution_count": 28,
-   "id": "44b33b2b",
+   "id": "63be302a",
    "metadata": {},
    "outputs": [
     {
@@ -109,7 +109,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "2a9a4ae7",
+   "id": "dd31da5f",
    "metadata": {},
    "source": [
     "2. Loop Basics\n",
@@ -140,7 +140,7 @@
   {
    "cell_type": "code",
    "execution_count": 57,
-   "id": "27f8450d",
+   "id": "ad2f68d7",
    "metadata": {},
    "outputs": [
     {
@@ -170,7 +170,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "8ea243b8",
+   "id": "2f21a405",
    "metadata": {},
    "source": [
     "Create a while loop that will count by 2's starting with 0 and ending at 100. \n",
@@ -181,7 +181,7 @@
   {
    "cell_type": "code",
    "execution_count": 63,
-   "id": "58716973",
+   "id": "a08226f8",
    "metadata": {},
    "outputs": [
     {
@@ -252,7 +252,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b30cb38e",
+   "id": "c49286c2",
    "metadata": {},
    "source": [
     "\n",
@@ -263,7 +263,7 @@
   {
    "cell_type": "code",
    "execution_count": 66,
-   "id": "f8e0a6d7",
+   "id": "9fcd150b",
    "metadata": {},
    "outputs": [
     {
@@ -305,7 +305,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "20d64302",
+   "id": "840e50e3",
    "metadata": {},
    "source": [
     "Create a while loop that starts at 2, and displays the number squared on each line while the number is less than 1,000,000"
@@ -314,7 +314,7 @@
   {
    "cell_type": "code",
    "execution_count": 75,
-   "id": "c5fe29ea",
+   "id": "e0747586",
    "metadata": {},
    "outputs": [
     {
@@ -339,7 +339,7 @@
   {
    "cell_type": "code",
    "execution_count": 78,
-   "id": "12e4ec9a",
+   "id": "48329716",
    "metadata": {},
    "outputs": [
     {
@@ -378,7 +378,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "aaa55b09",
+   "id": "5ae4ed4f",
    "metadata": {},
    "source": [
     "2. b. For Loops\n",
@@ -391,7 +391,7 @@
   {
    "cell_type": "code",
    "execution_count": 104,
-   "id": "9419735d",
+   "id": "de163ff5",
    "metadata": {},
    "outputs": [
     {
@@ -422,7 +422,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "5256479a",
+   "id": "0fb2f270",
    "metadata": {},
    "source": [
     "Create a for loop that uses print to create the output shown below.\n",
@@ -434,7 +434,7 @@
   {
    "cell_type": "code",
    "execution_count": 108,
-   "id": "7d84e52d",
+   "id": "40fa1e77",
    "metadata": {},
    "outputs": [
     {
@@ -464,7 +464,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "3dc4fd0e",
+   "id": "b78916f2",
    "metadata": {},
    "source": [
     "2c  break and continue\n",
@@ -479,7 +479,7 @@
   {
    "cell_type": "code",
    "execution_count": 178,
-   "id": "66ad8abf",
+   "id": "bc11a2ca",
    "metadata": {},
    "outputs": [
     {
@@ -543,17 +543,84 @@
   },
   {
    "cell_type": "markdown",
-   "id": "9188d63f",
+   "id": "77651266",
    "metadata": {},
    "source": [
-    "2d. The input function can be used to prompt for input and use that input in your python code. Prompt the user to enter a positive number and write a loop that counts from 0 to that number. (Hints: first make sure that the value the user entered is a valid number, also note that the input function returns a string, so you'll need to convert this to a numeric type.)\n",
+    "2d. Prompt the user to enter a positive number and write a loop that counts from 0 to that number. (Hints: first make sure that the value the user entered is a valid number, also note that the input function returns a string, so you'll need to convert this to a numeric type.)\n",
     "\n"
    ]
   },
   {
    "cell_type": "code",
+   "execution_count": 285,
+   "id": "4b8a8e86",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Input a positive integer: .2\n",
+      "try again\n",
+      "Input a positive integer-5\n",
+      "try again\n",
+      "Input a positive integer6\n",
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n"
+     ]
+    }
+   ],
+   "source": [
+    "### user_number = input(\"Input a positive integer: \")\n",
+    "# while True: \n",
+    "#     user_number.isdigit() == True and not int(user_number) <= 0\n",
+    "#     n = int(user_number)\n",
+    "#     for n in range(0, n):\n",
+    "#         print(n)\n",
+    "#     n = n + 1\n",
+    "#     while n <= int(user_number):\n",
+    "#         continue\n",
+    "\n",
+    "    \n",
+    "# user_number = input(\"Input a positive integer: \")\n",
+    "# while user_number.isdigit() == True and not int(user_number) <= 0:\n",
+    "#     n = int(user_number)\n",
+    "#     for n in range(0, n):\n",
+    "#         print(n)\n",
+    "#     n = n + 1\n",
+    "#     if n == int(user_number):\n",
+    "#         for n in range(n, n + 1):\n",
+    "#             print(n)\n",
+    "#         break\n",
+    "# else: \n",
+    "#     print('try again')\n",
+    "#     user_number = input('Input a positive integer')\n",
+    "\n",
+    "user_number = input(\"Input a positive integer: \")\n",
+    "while True:\n",
+    "    if user_number.isdigit() == True and not int(user_number) <= 0:\n",
+    "        n = int(user_number)\n",
+    "        for n in range(0, n):\n",
+    "            print(n)\n",
+    "        n = n + 1\n",
+    "        if n == int(user_number):\n",
+    "            for n in range(n, n + 1):\n",
+    "                print(n)\n",
+    "            break\n",
+    "    else: \n",
+    "        print('try again')\n",
+    "        user_number = input('Input a positive integer')"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": null,
-   "id": "83edfe40",
+   "id": "695db425",
    "metadata": {},
    "outputs": [],
    "source": []
