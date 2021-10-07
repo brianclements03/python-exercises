@@ -365,6 +365,6 @@ twelveto24('4:30am')
 # In[26]:
 
 
-def col_index(x):
+# def col_index(x):
     
 
